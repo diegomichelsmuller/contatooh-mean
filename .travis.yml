@@ -36,6 +36,6 @@ deploy:
   password:
     secure: N6UO4gbHlX7vVA5l7sZMF8uI9831z6mi8K/putx9UsOzasQzOlMSK9TtNGmnor7B8N9RPVyiin3e3iN9kwLD6oQtvcrwPcOUrVNtjlu2xyh/alIOOg1ReYkVG+RDyvhPPS/At0nd+ov5BYA33h3WXGfBsobru9vsDYaMavKG/74=
   app: contatooh
-  domain: contatooh-contatodm.rhcloud.com
+  domain: contatodm.rhcloud.com
   on:
     repo: diegomichelsmuller/contatooh-mean
