@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('default', [''minifica']);
+  grunt.registerTask('default', ['minifica']);
   grunt.registerTask('minifica', ['useminPrepare', 'ngAnnotate', 'concat', 
 	'uglify', 'cssmin', 'usemin']);
 
