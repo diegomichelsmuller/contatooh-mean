@@ -28,8 +28,9 @@ before_deploy:
 - git config --global user.mail 'travis@travis-ci.com'
 - git config --global user.name 'Travis CI'
 - git checkout $TRAVIS_BRANCH
-- git add 
+- git add -A . 
 - git commit -am "Travis commit"
+- git push -u
 deploy:
   provider: openshift
   user: diegotb_@hotmail.com
